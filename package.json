@@ -10,7 +10,7 @@
 	"keywords": [
 		"supertest"
 	],
-	"author": "Faisal Khatri",
+	"author": "Pushpendra Singh",
 	"license": "ISC",
 	"devDependencies": {
 		"chai": "^4.3.4",

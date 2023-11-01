@@ -26,7 +26,7 @@ describe('Post API tests using supertest', () => {
 			.set('Content-Type', 'application/json')
 			.end(function(err, res) {
 				expect(res.statusCode).to.be.equal(201);
-				expect(res.body.name).to.be.equal('Pushpendra Singh');
+				expect(res.body.name).to.be.equal('Pushpendra');
 				expect(res.body.job).to.be.equal('QA');
 				expect(res.body.id).not.to.be.null;
 				expect(res.body.createdAt).not.to.be.null;
